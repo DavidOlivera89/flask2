@@ -15,6 +15,10 @@ app = Flask(__name__)
 def index():
   return render_template('index.html')
 
+@app.route('/public')
+def public():
+    return 'For Public'
+
 if __name__ == '__main__':
   app.run(port=5000)
 
