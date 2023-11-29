@@ -7,7 +7,7 @@ from psycopg2 import connect
 from flask_cors import CORS, cross_origin
 import json
 import numpy as np
-from scipy.linalg import inv
+
 
 app = Flask(__name__)
 
